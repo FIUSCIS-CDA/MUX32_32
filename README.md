@@ -2,7 +2,7 @@
        MUX32_32
 
 #### DEPENDENCIES
-       Decoder_32, MUX2, MUX32
+       Decoder_32, MUX32
 
 #### INPUTS
 Name | Size(Bits)
@@ -52,6 +52,7 @@ Y   |     32
 
 #### AUTHOR
        Alexander T Pastoriza
+       Trevor Cickovski
 
 #### SEE ALSO
        qms(1), modclone(1)
