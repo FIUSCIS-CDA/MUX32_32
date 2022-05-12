@@ -42,7 +42,7 @@ end
 for (S=5'b00000; S <= 5'b11111; S = S + 5'b00001) begin
    $display("Testing: S=%b", S);
    #10;
-   verifyEqual(Y, I[S]);
+   verifyEqual32(Y, I[S]);
    // You need this because the counter will reset to 0 otherwise
    if (S == 5'b11111) begin
     $display("All tests passed.");
